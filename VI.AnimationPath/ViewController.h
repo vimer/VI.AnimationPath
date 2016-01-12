@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    CALayer *_animationLayer;
+    CAShapeLayer *_pathLayer;
+    CALayer *_penLayer;
+}
+
 
 
 @end
